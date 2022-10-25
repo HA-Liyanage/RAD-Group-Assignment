@@ -1,0 +1,48 @@
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Links{
+    font-style:Copperplates;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    object-fit:fill;
+    padding:70px;
+    background-color: gray;
+    margin-bottom: 10px;
+  }
+
+  img:hover {
+    background-color: rgb(147, 155, 166);
+    
+  }
+  
+  .texts{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(12, 44, 80);
+    background-color: rgb(159, 164, 171);
+    height: 350px;
+
+  }
+
+  .texts:hover {
+    background-color: rgb(147, 155, 166);
+  }
+
+  .oneLink:hover {
+    transform: scale(1.01);
+    border-radius: 5%;
+  }
+
+  .home h1 {
+    padding-top: 60px;
+    font-size: 40px;
+  }

@@ -1,0 +1,241 @@
+
+    body{  
+      margin: 30px; 
+      background-color:rgba(165, 169, 175, 0.567);  
+      font-family: 'cambria';  
+  }  
+  .login, .signup{  
+          width: 382px;   
+          margin: auto;  
+          padding: 75px;  
+          background: #23463f;  
+          border-radius: 15px ;   
+  }  
+
+  .text{
+          padding-left: 15%;
+  }
+
+  h1{  
+      text-align: center;  
+      color: #277582;  
+      padding: 40px;  
+  }  
+  label{  
+      color: #08ffd1;  
+      font-size: 17px;  
+      margin:auto;
+  }  
+  #rankup{
+      color:black;
+      text-align: left;
+  }
+  #Uname{  
+      width: 250px;  
+      height: 30px;  
+      border: none;  
+      padding-left: 20%;
+      border-radius: 3px;  
+      padding-left: 8px;  
+  }  
+  #Pass{  
+      width: 250px;  
+      height: 30px;  
+      border: none;  
+      border-radius: 3px;  
+      padding-left: 8px;  
+  }  
+
+  #btnlog{  
+      width: 125px;  
+      height: 30px;  
+      border: none;  
+      margin-left: 17%;
+      border-radius: 17px;  
+      font-family: 'Gill Sans MT';
+      font-size: 15px; 
+      background-color: rgb(78, 133, 204);  
+  }
+  
+  #btn{  
+      width: 50px;  
+      height: 30px;  
+      border: none;  
+      margin-left: 25%;
+      font-family: 'Gill Sans MT';
+      font-size: 15px; 
+      background-color: rgb(78, 133, 204);  
+      border-radius: 10px;
+  }
+
+  #btn-view{  
+      width: 100px;  
+      height: 30px;  
+      border: none;  
+      margin-left: 40%;
+      font-family: 'Gill Sans MT';
+      font-size: 15px; 
+      background-color: rgb(78, 133, 204);  
+  }
+
+  #btn-rankup{  
+      width: 150px;  
+      height: 30px;  
+      border: none;  
+      font-family: 'Gill Sans MT';
+      font-size: 15px; 
+      margin-left: 300px;
+      background-color: rgb(78, 133, 204);  
+  }
+
+  #btn-order{  
+      width: 200px;  
+      height: 30px;  
+      border: none;
+      position: absolute;  
+      top: 280px;
+      font-family: 'Gill Sans MT';
+      font-size: 20px; 
+      background-color: rgb(78, 133, 204); 
+      border-radius: 15px; 
+  }
+
+  #btn-order:hover {
+    background-color: rgb(110, 157, 219);
+  }
+
+  #btn-update{  
+      width: 100px;  
+      height: 30px;  
+      border: none;  
+      margin-left: 180px;
+      margin-top: 20px;
+      font-family: 'Gill Sans MT';
+      font-size: 15px; 
+      background-color: rgb(78, 133, 204);  
+  }
+
+  #btn-logout{  
+      width: 80px;  
+      height: 30px;  
+      border: none;  
+      margin-left: 10px;
+      margin-right: 10px;
+      font-family: 'Gill Sans MT';
+      font-size: 15px; 
+      background-color: rgb(78, 133, 204);  
+  }
+
+  .container{
+      width:auto;
+      height: 105px;
+      background-color: rgb(153, 153, 153);
+      font-family:'Gill Sans MT';
+      padding-top: 0px;
+  }
+
+  .logo-header{
+      font-size: 40px;
+      padding-left: 50px;
+      padding-top: 50px;
+  }
+
+  nav {
+    position:absolute;
+    top: 90px;
+    right: 20px;
+  }
+
+  a {
+    color: rgb(12, 44, 80);
+  }
+
+  .nav-header{
+      text-align: right;
+      padding-top: 10px;
+      padding-right:10px;
+      font-size: 20px;
+  }
+  #email{
+      float:right;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(88, 88, 88);
+  }
+    
+  li {
+      float: right;
+  }
+    
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+    
+  li a:hover {
+      background-color: #111;
+  }
+    
+  li {
+      border-right: 1px solid #bbb;
+      border-left: 1px solid #bbb;
+  }
+    
+  li:last-child {
+      border-right: none;
+  }
+
+  #log{  
+      width: 70px;  
+      height: 30px;  
+      border: none;  
+      margin-left: 5%; 
+      font-family: 'Gill Sans MT';
+      font-size: 20px; 
+      background-color: rgba(26, 60, 104, 0.196);  
+  }
+
+
+  .column {
+      float: left;
+      width: 31%;
+      margin: 15px;
+      background-color: rgb(165, 184, 200);
+      border-radius: 20px;
+  }
+
+  h4{
+      text-align: center;
+      color: #23463f;
+      font-size: 30px;
+      font-family: 'Gill Sans MT';
+  }
+
+  p{
+      font-family:'Times New Roman';
+      font-size: 17px;
+      padding-left: 25px;
+  }
+  
+  .details{
+      text-align: center;
+  }
+
+  .rankupForm, .updaterankupform{
+      text-align: center;
+  }
+
+  .fields{
+      padding-left: 300px;
+      font-family: 'Gill Sans MT';
+      font-size: 20px;
+      color:#23463f;
+  }
